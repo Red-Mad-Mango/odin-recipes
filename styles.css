@@ -1,0 +1,20 @@
+body {
+    background-color: #ECFAE5;
+    font-family: verdana, Georgia, Garamond, Arial;
+}
+
+h1 {
+    color: #000;
+    font-family: Garamond;
+    font-weight: 900;
+    font-size: 200px;
+    text-align: center;
+    background-color: #B0DB9C;
+}
+
+ul, li {
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #CAE8BD;
+    font-weight: 300;
+}
