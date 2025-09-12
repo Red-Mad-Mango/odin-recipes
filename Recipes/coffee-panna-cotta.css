@@ -36,7 +36,7 @@ img {
     margin-top: 20px;
     border: 2px solid black;
     border-radius: 8px;
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -49,4 +49,5 @@ li {
     text-align: center;
     list-style-type: circle;
     list-style-position: inside;
+    font-size: 25px;
 }
