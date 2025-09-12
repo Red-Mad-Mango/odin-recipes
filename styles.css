@@ -1,20 +1,36 @@
 body {
-    background-color: #ECFAE5;
-    font-family: verdana, Georgia, Garamond, Arial;
+  background-color: #dad7cd;
+  box-sizing: border-box;
+  font-family: monospace, sans-serif;
+}
+
+#box {
+  box-sizing: border-box;
+  background-color: #a3b18a;
+  width: 90%;
+  border: 3px solid #3a5a40;
+  text-align: center;
+  margin: auto;
 }
 
 h1 {
-    color: #000;
-    font-family: Garamond;
-    font-weight: 900;
-    font-size: 200px;
-    text-align: center;
-    background-color: #B0DB9C;
+  color: #344e41;
+  background-color: #588157;
+  margin: 30px;
+  font-size: 90px;
+  padding-bottom: 14px;
 }
 
-ul, li {
-    font-family: Arial;
-    font-size: 20px;
-    background-color: #CAE8BD;
-    font-weight: 300;
+li {
+  list-style: inside;
+  list-style-type: circle;
+  font-size: 25px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li :hover {
+  color: #588157;
 }
