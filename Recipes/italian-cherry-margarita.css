@@ -1,54 +1,72 @@
 body {
-    background-color: rgb(255, 205, 178);
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+  background-color: rgb(255, 205, 178);
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #main {
-    box-sizing: border-box;
-    width: 85%;
-    background-color: #6d6875;
-    border: 2px solid white;
-    text-align: center;
-    margin: auto;
+  box-sizing: border-box;
+  width: 85%;
+  background-color: #6d6875;
+  border: 2px solid white;
+  text-align: center;
+  margin: auto;
 }
 
 img {
-    box-sizing:border-box;
-    border: 3px solid #ffd2db;
-    border-radius: 8px;
-    max-width: 90%;
-    height: auto;
-
+  box-sizing: border-box;
+  border: 3px solid #ffd2db;
+  border-radius: 8px;
+  max-width: 90%;
+  height: auto;
 }
 
-h1, h2 {
-    color: #ffb4a2;
-    font-family: monospace;
-    background-color: #b5838d;
-    margin: 35px;
-    padding: 5px;
+h1,
+h2 {
+  color: #ffb4a2;
+  font-family: monospace;
+  background-color: #b5838d;
+  margin: 35px;
+  padding: 5px;
 }
 
 h1 {
-    font-size: 50px;
-    padding-right: 2px;
+  font-size: 50px;
+  padding-right: 2px;
 }
 
 h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 p {
-    font-size: 20px;
-    color: #ffd2db;
+  font-size: 20px;
+  color: #ffd2db;
 }
 
 li {
-    list-style-position: inside;
-    list-style-type: disc;
+  list-style-position: inside;
+  list-style-type: disc;
+  font-size: 20px;
+  color: #ffd2db;
+}
+
+#button {
+    border-radius: 8px;
+    text-align: center;
+    background-color: #6d6875;
     font-size: 20px;
+    margin: auto;    
+    cursor: pointer;
+    display: inline-block;
+}
+
+#button a {
+    text-decoration: none;
     color: #ffd2db;
+}
+
+#button a:hover {
+    color: #ffb4a2;
 }
