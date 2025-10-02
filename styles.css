@@ -1,36 +1,102 @@
-body {
-  background-color: #dad7cd;
+* {
   box-sizing: border-box;
-  font-family: monospace, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#box {
-  box-sizing: border-box;
-  background-color: #a3b18a;
-  width: 90%;
-  border: 3px solid #3a5a40;
-  text-align: center;
-  margin: auto;
+body {
+  background-color: #F5F0E6;
+  /* background-image: linear-gradient(to right, #F5F0E6, #F3DCD3); */
+  color: #151C2A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.box {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  height: 100vh;
+  flex: 0 1  auto;
+}
+
+.hero {
+  border: 2px solid #ffaf94;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 40vh;
+  padding: 0 5rem;
+  margin-top: 1rem;
+  background-color: #FFCDBD;
+  box-shadow: 2px 2px 9px 2px #151C2A;
+  border-radius: 8px;
+  
 }
 
 h1 {
-  color: #344e41;
-  background-color: #588157;
-  margin: 30px;
-  font-size: 90px;
-  padding-bottom: 14px;
+  font-size: 6rem;
 }
 
-li {
-  list-style: inside;
-  list-style-type: circle;
-  font-size: 25px;
+img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  height: 300px;
+  width: 500px;
+}
+
+h2 {
+  border:2px solid #9CABC4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  font-size: 3rem;
+  margin-top: 2rem;
+  background-color: #C6CEDD;
+  box-shadow: 2px 2px 9px 2px #151C2A;
+  border-radius: 8px;
+}
+
+.links {
+  border: 2px solid #a5e4b6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 20rem;
+  margin-top: 1.8rem;
+  padding-top: 0.8rem;
+  line-height: 2.5rem;
+  background-color: #D3F3DC;
+  box-shadow: 2px 2px 9px 2px #151C2A;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 li a {
   text-decoration: none;
+  font-size: 1.7rem;
+  color: #151C2A;
 }
 
-li :hover {
-  color: #588157;
+li a:visited {
+  color: #9CABC4;
 }
+
+li a:hover {
+  color: #ffaf94;
+}
+
+li a:active {
+  color: #a5e4b6;
+}
+
+
